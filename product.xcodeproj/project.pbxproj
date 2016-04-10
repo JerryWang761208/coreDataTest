@@ -13,6 +13,8 @@
 		C4CD5AFB1CBB12BF003668AD /* product.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C4CD5AF91CBB12BF003668AD /* product.xcdatamodeld */; };
 		C4CD5AFD1CBB12BF003668AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4CD5AFC1CBB12BF003668AD /* Assets.xcassets */; };
 		C4CD5B001CBB12BF003668AD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4CD5AFE1CBB12BF003668AD /* LaunchScreen.storyboard */; };
+		C4CD5B091CBB1323003668AD /* Product+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CD5B071CBB1323003668AD /* Product+CoreDataProperties.swift */; };
+		C4CD5B0A1CBB1323003668AD /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CD5B081CBB1323003668AD /* Product.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		C4CD5AFC1CBB12BF003668AD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C4CD5AFF1CBB12BF003668AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C4CD5B011CBB12BF003668AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4CD5B071CBB1323003668AD /* Product+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Product+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		C4CD5B081CBB1323003668AD /* Product.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +44,8 @@
 		C4CD5AE61CBB12BF003668AD = {
 			isa = PBXGroup;
 			children = (
+				C4CD5B071CBB1323003668AD /* Product+CoreDataProperties.swift */,
+				C4CD5B081CBB1323003668AD /* Product.swift */,
 				C4CD5AF11CBB12BF003668AD /* product */,
 				C4CD5AF01CBB12BF003668AD /* Products */,
 			);
@@ -140,6 +146,8 @@
 			files = (
 				C4CD5AF51CBB12BF003668AD /* ViewController.swift in Sources */,
 				C4CD5AFB1CBB12BF003668AD /* product.xcdatamodeld in Sources */,
+				C4CD5B0A1CBB1323003668AD /* Product.swift in Sources */,
+				C4CD5B091CBB1323003668AD /* Product+CoreDataProperties.swift in Sources */,
 				C4CD5AF31CBB12BF003668AD /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
