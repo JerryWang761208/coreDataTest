@@ -11,7 +11,7 @@ import CoreData
 
 class ViewController: UIViewController {
 
-    //
+    //connect to database
     let moc = (UIApplication.sharedApplication().delegate as! AppDelegate).managedObjectContext
     
     
@@ -77,7 +77,7 @@ class ViewController: UIViewController {
     //update
     func updateProductPrice(){
         let request = NSFetchRequest(entityName: "Product")
-        request.predicate = NSPredicate(format: "name == %@", "iPhone 6s 128GB")
+        request.predicate = NSPredicate(format: "name==%@", "iPhone 6s 128GB")
         do{
             let results = try moc.executeFetchRequest(request) as! [Product]
             if (results.count > 0){
